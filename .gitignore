@@ -1,0 +1,67 @@
+# General ignores
+*.DS_Store
+*.swp
+*.swo
+*.env
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+logs/
+*.log
+*.lock
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.egg-info/
+.env/
+db.sqlite3
+
+# Django specific ignores
+media/
+staticfiles/
+static/
+*.pyc
+*.pyo
+
+# Frontend specific ignores (Next.js)
+.next/
+out/
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+
+# macOS specific ignores
+.DS_Store
+
+# Docker specific ignores
+.dockerignore
+docker-compose.override.yml
+
+# Additional ignored IDE-specific files
+*.iml
+*.ipr
+*.iws
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+
+# If using coverage reports
+.coverage
+htmlcov/
+
+# Pipenv files
+Pipfile.lock
+
+# If using virtualenv
+venv/
+# Environment variables
+.env
